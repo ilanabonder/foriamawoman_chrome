@@ -1,0 +1,76 @@
+
+/*.foriamawoman{
+
+}*/
+
+
+.everything{
+  color: white;
+  background-color: black;
+}
+
+.displaycontent{
+  margin: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: flex;
+}
+
+.new{
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.newImg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:20px;
+  width: 250px;
+  height: 250px;
+  float:left;
+}
+
+.myImg{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.newText{
+  margin-left:20px;
+  margin-right:5px;
+  width: 400px;
+  float:left;
+  background-color: black;
+}
+
+.newTitle{
+  font-family: 'Playfair-Display', serif;
+  font-size: 21px;
+  margin-right:5px;
+}
+
+.newSubTitle{
+  /*font-family: 'Alice', serif;*/
+  font-size: 16px;
+  margin-right:5px;
+}
+
+.newSmallText{
+  /*font-family: 'Poppins', serif;*/
+  font-size: 12px;
+  margin-right:5px;
+  margin-bottom: 10px;
+}
+
+
+
+/*.newImg{
+  width:320px;
+  height: 240px;
+}*/
+
+/*.womanImg{
+  100%
+}*/

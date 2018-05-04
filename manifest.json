@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Rainbow",
+  "version": "1.2",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action":{
+    "default_icon": "rainbow.png",
+    "default_popup": "foriamawoman/main.html",
+    "default_title": "for i am a woman"
+  },
+  "permissions": [
+    "http://fonts.googleapis.com/",
+    "https://fonts.googleapis.com/"
+],
+  "web_accessible_resources": ["foriamawoman/index.html"]
+}
